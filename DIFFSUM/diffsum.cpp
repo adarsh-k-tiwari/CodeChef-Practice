@@ -10,7 +10,7 @@ int main()
 	int a,b;
 	cin>> a>>b;
 	int sum=0,diff=0;
-	if(a<b){
+	if(a<=b){
 		sum = a+b;
 		cout<<sum<<endl;
 	}
